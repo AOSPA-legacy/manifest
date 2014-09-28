@@ -472,9 +472,24 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+  <!-- Device Trees -->
+  <project path="device/samsung/d2lte" name="AOSPA-legacy/android_device_samsung_d2lte" remote="github" revision="kitkat"/>
+  <project path="device/samsung/jflte" name="AOSPA-legacy/android_device_samsung_jflte" remote="github" revision="kitkat"/>
+  <project path="device/samsung/i9300" name="AOSPA-legacy/android_device_samsung_i9300" remote="github" revision="kitkat"/>
+  <project path="device/samsung/i9500" name="AOSPA-legacy/android_device_samsung_i9500" remote="github" revision="kitkat"/>
+  <project path="device/samsung/i9100" name="AOSPA-legacy/android_device_samsung_i9100" remote="github" revision="kitkat"/>
+  <project path="device/samsung/i9100g" name="AOSPA-legacy/android_device_samsung_i9100g" remote="github" revision="kitkat"/>
+  <project path="device/samsung/galaxysmtd" name="AOSPA-legacy/android_device_samsung_galaxysmtd" remote="github" revision="kitkat"/>
+  <project path="device/lge/d800" name="AOSPA-legacy/android_device_lge_d800" remote="github" revision="kitkat"/>
+  <project path="device/lge/d802" name="AOSPA-legacy/android_device_lge_d802" remote="github" revision="kitkat"/>
+  <project path="device/lge/d803" name="AOSPA-legacy/android_device_lge_d803" remote="github" revision="kitkat"/>
+  <project path="device/lge/ls980" name="AOSPA-legacy/android_device_lge_ls980" remote="github" revision="kitkat"/>
+  <project path="device/oppo/find7" name="AOSPA-legacy/android_device_oppo_find7" remote="github" revision="kitkat"/>
+  
+
   <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="kitkat" >
-    <copyfile src="build.sh" dest="rom-build.sh" />
-    <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
+  <copyfile src="build.sh" dest="rom-build.sh" />
+  <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
 
 </manifest>
