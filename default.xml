@@ -24,7 +24,7 @@
 
   <project path="manifest" name="AOSPA/manifest" remote="github" revision="lollipop" />
 
-  <project path="build" name="AOSPA/android_build" remote="github" revision="lollipop" >
+  <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -524,7 +524,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="lollipop" >
+  <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="lollipop" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
