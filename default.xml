@@ -23,7 +23,7 @@
            sync-j="4" />
 
   <project path="manifest" name="AOSPA-legacy/manifest" remote="github" revision="staging/lollipop-mr1" />
-  <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="lollipop-mr1" >
+  <project path="build" name="AOSPA-L/android_build" remote="github" revision="lollipop-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -306,7 +306,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="AOSPA-legacy/android_frameworks_native" remote="github" revision="lollipop" groups="pdk" />
+  <project path="frameworks/native" name="AOSPA-L/android_frameworks_native" remote="github" revision="lollipop-mr1" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
@@ -324,7 +324,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="AOSPA-legacy/android_frameworks_opt_telephony" remote="github" revision="lollipop" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="AOSPA-L/android_frameworks_opt_telephony" remote="github" revision="lollipop-mr1" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -401,9 +401,9 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="AOSPA-legacy/android_packages_apps_Contacts" remote="github" revision="lollipop-mr1" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" remote="cm" revision="cm-12.0" />
-  <project path="packages/apps/DeskClock" name="AOSPA-legacy/android_packages_apps_Deskclock" remote="github" revision="lollipop" />
-  <project path="packages/apps/Dialer" name="AOSPA-legacy/android_packages_apps_Dialer" remote="github" revision="lollipop" />
-  <project path="packages/apps/Eleven" name="AOSPA-legacy/android_packages_apps_Eleven" remote="github" revision="lollipop" />
+  <project path="packages/apps/DeskClock" name="AOSPA-L/android_packages_apps_Deskclock" remote="github" revision="lollipop-mr1" />
+  <project path="packages/apps/Dialer" name="AOSPA-L/android_packages_apps_Dialer" remote="github" revision="lollipop-mr1" />
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="staging/cm-12.1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="cm" revision="cm-12.0" />
@@ -413,7 +413,7 @@
   <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
-  <project path="packages/apps/Mms-caf" name="AOSPA-legacy/android_packages_apps_Mms-caf" remote="github" revision="lollipop" />
+  <project path="packages/apps/Mms-caf" name="CyanogenMod/android_packages_apps_Mms-caf" remote="github" revision="staging/cm-12.1" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" revision="staging/cm-12.1" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
@@ -423,7 +423,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="AOSPA-legacy/android_packages_apps_Settings" remote="github" revision="lollipop"  />
+  <project path="packages/apps/Settings" name="AOSPA-L/android_packages_apps_Settings" remote="github" revision="lollipop-mr1"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -440,16 +440,16 @@
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" remote="cm" revision="staging/cm-12.1" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="cm" revision="staging/cm-12.1" groups="pdk-cw-fs" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" />
-  <project path="packages/providers/MediaProvider" name="AOSPA-legacy/android_packages_providers_MediaProvider" remote="github" revision="lollipop" groups="pdk-cw-fs" />
+  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="staging/cm-12.1" groups="pdk-cw-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="AOSPA-legacy/android_packages_providers_TelephonyProvider" remote="github" revision="lollipop" />
+  <project path="packages/providers/TelephonyProvider" name="AOSPA-legacy/android_packages_providers_TelephonyProvider" remote="github" revision="staging/cm-12.1" />
   <project path="packages/providers/ThemesProvider" name="AOSPA/android_packages_providers_ThemesProvider" remote="github" revision="lollipop"  />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" remote="cm" revision="cm-12.0" />
-  <project path="packages/services/Telecomm" name="AOSPA-legacy/android_packages_services_Telecomm" remote="github" revision="lollipop" />
+  <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" remote="github" revision="staging/cm-12.1" />
   <project path="packages/services/Telephony" name="AOSPA-legacy/android_packages_services_Telephony" remote="github" revision="lollipop" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
