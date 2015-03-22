@@ -442,7 +442,7 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="staging/cm-12.1" groups="pdk-cw-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="AOSPA-legacy/android_packages_providers_TelephonyProvider" remote="github" revision="staging/cm-12.1" />
+  <project path="packages/providers/TelephonyProvider" name="AOSPA-legacy/android_packages_providers_TelephonyProvider" remote="github" revision="lollipop" />
   <project path="packages/providers/ThemesProvider" name="AOSPA/android_packages_providers_ThemesProvider" remote="github" revision="lollipop"  />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
